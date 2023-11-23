@@ -440,7 +440,7 @@
       "conditions": [
         {
           "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
           },
           "parameters": [
             "Next",
