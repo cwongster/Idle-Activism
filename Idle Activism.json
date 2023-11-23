@@ -3496,6 +3496,19 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/e277b4eaf6ac17fafedb222c2900b817f1fe3018b42a46430d530f0df8d42b60_Flat Bar Orange Fill Bar.png",
           "name": "Flat Bar Orange Fill Bar.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_Wood Hud_all_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_Wood Hud_all_32.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/ed605cc2e33964e0b96fb7db7c8820117a7f385d5c67f9eb68babec4ae91d805_9patch_Wood Hud_all_32.png",
+          "name": "9patch_Wood Hud_all_32.png"
+        }
       }
     ],
     "resourceFolders": []

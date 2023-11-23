@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.475358508712693,
+    "zoomFactor": 0.5079575118131735,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -419,8 +419,8 @@
       "name": "BrownButtonWithShadow",
       "persistentUuid": "85b74c21-c893-4b34-9e67-62e18301edea",
       "width": 0,
-      "x": 155,
-      "y": 288,
+      "x": 197,
+      "y": 316,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -434,8 +434,8 @@
       "name": "GreenButtonWithShadow",
       "persistentUuid": "a32c6714-97bd-4b14-9955-7ac0c2f28c7d",
       "width": 0,
-      "x": 542,
-      "y": 288,
+      "x": 725,
+      "y": 316,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -444,78 +444,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 70,
-      "height": 49,
-      "layer": "",
-      "name": "GreenFlatBar",
-      "persistentUuid": "ed5ea499-c36f-4b20-92dc-2f1b46017bc0",
-      "width": 477,
-      "x": 343,
-      "y": 765,
-      "zOrder": 28,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 32,
       "height": 49,
-      "layer": "",
-      "name": "GreenFlatBar2",
-      "persistentUuid": "5e41c333-671b-41f5-a490-88f99cb75c37",
-      "width": 477,
-      "x": 344,
-      "y": 837,
-      "zOrder": 29,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 6,
-      "height": 822,
-      "layer": "",
-      "name": "YellowBackground",
-      "persistentUuid": "b11582b0-4758-414c-9622-efd674ef422f",
-      "width": 765,
-      "x": 77,
-      "y": 228,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 32,
-      "height": 49,
-      "layer": "",
-      "name": "GreenFlatBar3",
-      "persistentUuid": "a6b95af9-dcf9-4c35-91e2-e114c420c5ba",
-      "width": 477,
-      "x": 344,
-      "y": 914,
-      "zOrder": 30,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 32,
-      "height": 49,
-      "layer": "",
-      "name": "OrangeFlatBar",
+      "layer": "GetSupporterScreen",
+      "name": "PutPostersUp",
       "persistentUuid": "0f7a777c-f88e-4a27-8d51-84ee2ec12df9",
       "width": 477,
-      "x": 345,
-      "y": 471,
+      "x": 475,
+      "y": 475,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -526,12 +462,12 @@
       "customSize": true,
       "depth": 54,
       "height": 49,
-      "layer": "",
-      "name": "OrangeFlatBar2",
+      "layer": "GetSupporterScreen",
+      "name": "PostAdOnline",
       "persistentUuid": "88eaab50-fa18-42af-ab0a-6a93ad93eb5d",
       "width": 477,
-      "x": 348,
-      "y": 547,
+      "x": 475,
+      "y": 550,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -542,13 +478,77 @@
       "customSize": true,
       "depth": 32,
       "height": 49,
-      "layer": "",
-      "name": "OrangeFlatBar3",
+      "layer": "GetSupporterScreen",
+      "name": "Rallies",
       "persistentUuid": "338d4706-dcbf-450d-89c3-925610080f51",
       "width": 477,
-      "x": 346,
-      "y": 627,
+      "x": 475,
+      "y": 629,
       "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 70,
+      "height": 49,
+      "layer": "MakeMoneyScreen",
+      "name": "SellingBoba",
+      "persistentUuid": "80a894f6-20c6-4f2c-848f-d632337dc232",
+      "width": 477,
+      "x": 475,
+      "y": 475,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 49,
+      "layer": "MakeMoneyScreen",
+      "name": "AskForSocialMediaDonations",
+      "persistentUuid": "59e201ae-066b-4758-847b-6c196a47c48d",
+      "width": 477,
+      "x": 475,
+      "y": 550,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 49,
+      "layer": "MakeMoneyScreen",
+      "name": "CarWash",
+      "persistentUuid": "991e8cb9-2ab8-4645-9bf6-e6377f451825",
+      "width": 477,
+      "x": 475,
+      "y": 629,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 795,
+      "layer": "",
+      "name": "WoodHud",
+      "persistentUuid": "0cb69010-a360-4a84-bf69-5af318b8b8e6",
+      "width": 934,
+      "x": 75,
+      "y": 240,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -13372,7 +13372,14 @@
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Supporters",
+          "type": "string",
+          "value": ""
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "string": "0",
@@ -13534,7 +13541,7 @@
     },
     {
       "assetStoreId": "5c37cb58ddc519829264b5ff95dd80416c82e89b60bfa67c6c3852154ec2b632",
-      "name": "GreenFlatBar",
+      "name": "SellingBoba",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -13599,7 +13606,7 @@
     },
     {
       "assetStoreId": "5c37cb58ddc519829264b5ff95dd80416c82e89b60bfa67c6c3852154ec2b632",
-      "name": "GreenFlatBar2",
+      "name": "AskForSocialMediaDonations",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -13675,7 +13682,7 @@
     },
     {
       "assetStoreId": "5c37cb58ddc519829264b5ff95dd80416c82e89b60bfa67c6c3852154ec2b632",
-      "name": "GreenFlatBar3",
+      "name": "CarWash",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -13740,7 +13747,7 @@
     },
     {
       "assetStoreId": "5d60da81895e1d170c135f9071369e0f617f24485a6760a717ea2d56988b8c8f",
-      "name": "OrangeFlatBar",
+      "name": "PutPostersUp",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -13805,7 +13812,7 @@
     },
     {
       "assetStoreId": "5d60da81895e1d170c135f9071369e0f617f24485a6760a717ea2d56988b8c8f",
-      "name": "OrangeFlatBar2",
+      "name": "PostAdOnline",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -13870,7 +13877,7 @@
     },
     {
       "assetStoreId": "5d60da81895e1d170c135f9071369e0f617f24485a6760a717ea2d56988b8c8f",
-      "name": "OrangeFlatBar3",
+      "name": "Rallies",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -13932,6 +13939,22 @@
           }
         }
       }
+    },
+    {
+      "assetStoreId": "8b0d151969a3e5a63292058f40c8cf899f8498300e85301762f1c144e19b5631",
+      "bottomMargin": 32,
+      "height": 96,
+      "leftMargin": 32,
+      "name": "WoodHud",
+      "rightMargin": 32,
+      "texture": "9patch_Wood Hud_all_32.png",
+      "tiled": true,
+      "topMargin": 32,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 96,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -14337,25 +14360,28 @@
         "objectName": "BrownButtonWithShadow"
       },
       {
-        "objectName": "GreenFlatBar"
+        "objectName": "SellingBoba"
       },
       {
-        "objectName": "GreenFlatBar2"
+        "objectName": "AskForSocialMediaDonations"
       },
       {
-        "objectName": "GreenFlatBar3"
+        "objectName": "CarWash"
       },
       {
         "objectName": "YellowBackground"
       },
       {
-        "objectName": "OrangeFlatBar"
+        "objectName": "PutPostersUp"
       },
       {
-        "objectName": "OrangeFlatBar2"
+        "objectName": "PostAdOnline"
       },
       {
-        "objectName": "OrangeFlatBar3"
+        "objectName": "Rallies"
+      },
+      {
+        "objectName": "WoodHud"
       }
     ]
   },
@@ -14372,7 +14398,26 @@
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"GetSupporterScreen\""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"MakeMoneyScreen\""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -14382,7 +14427,7 @@
             "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
           },
           "parameters": [
-            "GreenFlatBar",
+            "SellingBoba",
             ""
           ]
         }
@@ -14393,7 +14438,7 @@
             "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
           },
           "parameters": [
-            "GreenFlatBar",
+            "SellingBoba",
             "=",
             "0",
             ""
@@ -14429,7 +14474,7 @@
             "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
           },
           "parameters": [
-            "OrangeFlatBar",
+            "PutPostersUp",
             "="
           ]
         }
@@ -14440,7 +14485,7 @@
             "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
           },
           "parameters": [
-            "OrangeFlatBar",
+            "PutPostersUp",
             "=",
             "0",
             ""
@@ -14470,8 +14515,71 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "BrownButtonWithShadow",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"GetSupporterScreen\""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"MakeMoneyScreen\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "GreenButtonWithShadow",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"MakeMoneyScreen\""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"GetSupporterScreen\""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -14500,6 +14608,70 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "MakeMoneyScreen",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "GetSupporterScreen",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",

@@ -65,8 +65,8 @@
       "name": "Next",
       "persistentUuid": "6125a753-9fb8-4ced-8179-d20a18643ada",
       "width": 330,
-      "x": 1531,
-      "y": 922,
+      "x": 779,
+      "y": 914,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -432,6 +432,16 @@
           "parameters": [
             "Start"
           ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "Start",
+            "no",
+            ""
+          ]
         }
       ]
     },
@@ -481,6 +491,16 @@
           },
           "parameters": [
             "Start",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "Start",
+            "yes",
             ""
           ]
         }
