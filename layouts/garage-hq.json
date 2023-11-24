@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.475358508712693,
+    "zoomFactor": 0.5610952083582071,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -52,8 +52,8 @@
       "name": "WallSandWindow",
       "persistentUuid": "07cb7263-d80b-4014-b96c-8a47ae21b25a",
       "width": 351,
-      "x": 1207,
-      "y": 496,
+      "x": 1173,
+      "y": 505,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -68,8 +68,8 @@
       "name": "FloorGray",
       "persistentUuid": "3082c0b6-3051-408c-9ebe-a047c8f9447f",
       "width": 635,
-      "x": 1236,
-      "y": 693,
+      "x": 1202,
+      "y": 702,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -84,8 +84,8 @@
       "name": "FloorSeamGray",
       "persistentUuid": "7467da13-9e4c-4045-9c2b-09b11d90779f",
       "width": 351,
-      "x": 1207,
-      "y": 678,
+      "x": 1173,
+      "y": 687,
       "zOrder": 4,
       "numberProperties": [
         {
@@ -105,8 +105,8 @@
       "name": "WallSandDoor",
       "persistentUuid": "5891dd2b-4b99-4005-95d9-c124aff6e615",
       "width": 351,
-      "x": 1558,
-      "y": 496,
+      "x": 1524,
+      "y": 505,
       "zOrder": 8,
       "numberProperties": [
         {
@@ -126,8 +126,8 @@
       "name": "FloorSeamGray",
       "persistentUuid": "d98d1a87-e928-4115-b502-259c89d7d243",
       "width": 351,
-      "x": 1558,
-      "y": 674,
+      "x": 1524,
+      "y": 683,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -142,8 +142,8 @@
       "name": "WallSeamGray",
       "persistentUuid": "3ccf7835-eaec-4ae8-9c0a-81bc1303d447",
       "width": 67,
-      "x": 1523,
-      "y": 480,
+      "x": 1489,
+      "y": 489,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -158,8 +158,8 @@
       "name": "TvStandBrown",
       "persistentUuid": "d038cbdb-cffd-45d7-9e8a-b2e6de9c17f4",
       "width": 120,
-      "x": 1467,
-      "y": 648,
+      "x": 1433,
+      "y": 657,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -174,8 +174,8 @@
       "name": "Cactus",
       "persistentUuid": "e255cae5-96ac-4e9f-b0d6-e52500ce5a8a",
       "width": 39,
-      "x": 1527,
-      "y": 605,
+      "x": 1493,
+      "y": 614,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -190,8 +190,8 @@
       "name": "CoffeeMachine",
       "persistentUuid": "689478dd-07ed-4633-9b18-026cc67f6f29",
       "width": 45,
-      "x": 1486,
-      "y": 632,
+      "x": 1452,
+      "y": 641,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -206,8 +206,8 @@
       "name": "DeskBlack",
       "persistentUuid": "9086b496-07da-4375-8c7a-6afe66ea498d",
       "width": 126,
-      "x": 1315,
-      "y": 732,
+      "x": 1281,
+      "y": 741,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -222,8 +222,8 @@
       "name": "ChairBrown",
       "persistentUuid": "c6931a4f-3694-4256-8fb8-4403c4bb02f9",
       "width": 67,
-      "x": 1412,
-      "y": 800,
+      "x": 1378,
+      "y": 809,
       "zOrder": 16,
       "numberProperties": [
         {
@@ -243,8 +243,8 @@
       "name": "LaptopOpen",
       "persistentUuid": "2853beaa-b30d-4777-a800-cf965e4ec690",
       "width": 53,
-      "x": 1351,
-      "y": 728,
+      "x": 1317,
+      "y": 737,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -259,8 +259,8 @@
       "name": "RugLargeOlive",
       "persistentUuid": "c125c7d2-6913-49b8-ba94-b78fcdf36cb0",
       "width": 322,
-      "x": 1392,
-      "y": 770,
+      "x": 1358,
+      "y": 779,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -275,8 +275,8 @@
       "name": "MaleCharacter5",
       "persistentUuid": "a39ccc30-432e-41fa-ba6c-247bd7a98f5e",
       "width": 110,
-      "x": 1564,
-      "y": 731,
+      "x": 1530,
+      "y": 740,
       "zOrder": 17,
       "numberProperties": [
         {
@@ -416,11 +416,11 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "BrownButtonWithShadow",
+      "name": "Make_Money_Selection",
       "persistentUuid": "85b74c21-c893-4b34-9e67-62e18301edea",
       "width": 0,
-      "x": 155,
-      "y": 288,
+      "x": 197,
+      "y": 316,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -431,11 +431,11 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "GreenButtonWithShadow",
+      "name": "Get_Supporters_Selection",
       "persistentUuid": "a32c6714-97bd-4b14-9955-7ac0c2f28c7d",
       "width": 0,
-      "x": 542,
-      "y": 288,
+      "x": 659,
+      "y": 316,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -444,78 +444,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 70,
-      "height": 49,
-      "layer": "",
-      "name": "GreenFlatBar",
-      "persistentUuid": "ed5ea499-c36f-4b20-92dc-2f1b46017bc0",
-      "width": 477,
-      "x": 343,
-      "y": 765,
-      "zOrder": 28,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 32,
       "height": 49,
-      "layer": "",
-      "name": "GreenFlatBar2",
-      "persistentUuid": "5e41c333-671b-41f5-a490-88f99cb75c37",
-      "width": 477,
-      "x": 344,
-      "y": 837,
-      "zOrder": 29,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 6,
-      "height": 822,
-      "layer": "",
-      "name": "YellowBackground",
-      "persistentUuid": "b11582b0-4758-414c-9622-efd674ef422f",
-      "width": 765,
-      "x": 77,
-      "y": 228,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 32,
-      "height": 49,
-      "layer": "",
-      "name": "GreenFlatBar3",
-      "persistentUuid": "a6b95af9-dcf9-4c35-91e2-e114c420c5ba",
-      "width": 477,
-      "x": 344,
-      "y": 914,
-      "zOrder": 30,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 32,
-      "height": 49,
-      "layer": "",
-      "name": "OrangeFlatBar",
+      "layer": "GetSupporterScreen",
+      "name": "PutPostersUp",
       "persistentUuid": "0f7a777c-f88e-4a27-8d51-84ee2ec12df9",
       "width": 477,
-      "x": 345,
-      "y": 471,
+      "x": 475,
+      "y": 475,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -526,12 +462,12 @@
       "customSize": true,
       "depth": 54,
       "height": 49,
-      "layer": "",
-      "name": "OrangeFlatBar2",
+      "layer": "GetSupporterScreen",
+      "name": "PostAdOnline",
       "persistentUuid": "88eaab50-fa18-42af-ab0a-6a93ad93eb5d",
       "width": 477,
-      "x": 348,
-      "y": 547,
+      "x": 475,
+      "y": 550,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -542,13 +478,173 @@
       "customSize": true,
       "depth": 32,
       "height": 49,
-      "layer": "",
-      "name": "OrangeFlatBar3",
+      "layer": "GetSupporterScreen",
+      "name": "Rallies",
       "persistentUuid": "338d4706-dcbf-450d-89c3-925610080f51",
       "width": 477,
-      "x": 346,
-      "y": 627,
+      "x": 475,
+      "y": 625,
       "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 70,
+      "height": 49,
+      "layer": "MakeMoneyScreen",
+      "name": "SellingBoba",
+      "persistentUuid": "80a894f6-20c6-4f2c-848f-d632337dc232",
+      "width": 477,
+      "x": 475,
+      "y": 475,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 49,
+      "layer": "MakeMoneyScreen",
+      "name": "AskForSocialMediaDonations",
+      "persistentUuid": "59e201ae-066b-4758-847b-6c196a47c48d",
+      "width": 477,
+      "x": 475,
+      "y": 550,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 49,
+      "layer": "MakeMoneyScreen",
+      "name": "CarWash",
+      "persistentUuid": "991e8cb9-2ab8-4645-9bf6-e6377f451825",
+      "width": 477,
+      "x": 475,
+      "y": 625,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 18,
+      "height": 49,
+      "layer": "MakeMoneyScreen",
+      "name": "Selling_Boba_Button",
+      "persistentUuid": "92ebef7d-f17b-45ba-9186-895fee7b2944",
+      "width": 180,
+      "x": 205,
+      "y": 475,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 49,
+      "layer": "MakeMoneyScreen",
+      "name": "SM_Donations_Button",
+      "persistentUuid": "fedba7ad-4ce5-4eb5-b610-1bd820c57e42",
+      "width": 180,
+      "x": 205,
+      "y": 550,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 49,
+      "layer": "MakeMoneyScreen",
+      "name": "Car_Wash_Button",
+      "persistentUuid": "02cd6919-0679-469b-9352-16126bbeff7f",
+      "width": 180,
+      "x": 205,
+      "y": 625,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 49,
+      "layer": "GetSupporterScreen",
+      "name": "Put_Posters_Up_Button",
+      "persistentUuid": "23f8389a-1209-4d1c-ba4d-7ab4fc0f1a35",
+      "width": 180,
+      "x": 205,
+      "y": 475,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 49,
+      "layer": "GetSupporterScreen",
+      "name": "Post_Ad_Online_Button",
+      "persistentUuid": "870b2dfc-980b-42a3-a4fd-ac41a72878b9",
+      "width": 180,
+      "x": 205,
+      "y": 550,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 49,
+      "layer": "GetSupporterScreen",
+      "name": "Rallies_Button",
+      "persistentUuid": "e8632ef5-8c42-4dd3-acb8-9b83b4cc0e4d",
+      "width": 180,
+      "x": 205,
+      "y": 625,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 764,
+      "layer": "",
+      "name": "BorderedHud",
+      "persistentUuid": "a1431da6-f0d0-46dd-81a4-08f1f627b87c",
+      "width": 959,
+      "x": 75,
+      "y": 269,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -13079,8 +13175,8 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "InitialValue": 7,
-        "MaxValue": 7,
+        "InitialValue": 300,
+        "MaxValue": 300,
         "BarTopPadding": 8,
         "BarRightPadding": 10,
         "BarBottomPadding": 8,
@@ -13372,7 +13468,14 @@
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Supporters",
+          "type": "string",
+          "value": ""
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "string": "0",
@@ -13408,7 +13511,7 @@
     },
     {
       "assetStoreId": "569b45d3c7c34f7706563239938d04ca599016ff9857ee38c945c72330d4339e",
-      "name": "GreenButtonWithShadow",
+      "name": "Get_Supporters_Selection",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -13471,7 +13574,7 @@
     },
     {
       "assetStoreId": "d7de738069817891a6c233618dc4fe00463738543c80009e9ef75684d5f6e8fd",
-      "name": "BrownButtonWithShadow",
+      "name": "Make_Money_Selection",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -13534,7 +13637,7 @@
     },
     {
       "assetStoreId": "5c37cb58ddc519829264b5ff95dd80416c82e89b60bfa67c6c3852154ec2b632",
-      "name": "GreenFlatBar",
+      "name": "SellingBoba",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -13546,8 +13649,8 @@
         "BarBottomPadding": 6,
         "BarLeftPadding": 4,
         "BarRightPadding": 4,
-        "MaxValue": 16,
-        "InitialValue": 8
+        "MaxValue": 10,
+        "InitialValue": 0
       },
       "childrenContent": {
         "Background": {
@@ -13599,7 +13702,7 @@
     },
     {
       "assetStoreId": "5c37cb58ddc519829264b5ff95dd80416c82e89b60bfa67c6c3852154ec2b632",
-      "name": "GreenFlatBar2",
+      "name": "AskForSocialMediaDonations",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -13611,8 +13714,8 @@
         "BarBottomPadding": 6,
         "BarLeftPadding": 4,
         "BarRightPadding": 4,
-        "MaxValue": 16,
-        "InitialValue": 8
+        "MaxValue": 20,
+        "InitialValue": 0
       },
       "childrenContent": {
         "Background": {
@@ -13675,7 +13778,7 @@
     },
     {
       "assetStoreId": "5c37cb58ddc519829264b5ff95dd80416c82e89b60bfa67c6c3852154ec2b632",
-      "name": "GreenFlatBar3",
+      "name": "CarWash",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -13687,8 +13790,8 @@
         "BarBottomPadding": 6,
         "BarLeftPadding": 4,
         "BarRightPadding": 4,
-        "MaxValue": 16,
-        "InitialValue": 8
+        "MaxValue": 30,
+        "InitialValue": 0
       },
       "childrenContent": {
         "Background": {
@@ -13740,7 +13843,7 @@
     },
     {
       "assetStoreId": "5d60da81895e1d170c135f9071369e0f617f24485a6760a717ea2d56988b8c8f",
-      "name": "OrangeFlatBar",
+      "name": "PutPostersUp",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -13752,8 +13855,8 @@
         "BarBottomPadding": 6,
         "BarLeftPadding": 4,
         "BarRightPadding": 4,
-        "MaxValue": 16,
-        "InitialValue": 8
+        "MaxValue": 10,
+        "InitialValue": 0
       },
       "childrenContent": {
         "Background": {
@@ -13805,7 +13908,7 @@
     },
     {
       "assetStoreId": "5d60da81895e1d170c135f9071369e0f617f24485a6760a717ea2d56988b8c8f",
-      "name": "OrangeFlatBar2",
+      "name": "PostAdOnline",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -13817,8 +13920,8 @@
         "BarBottomPadding": 6,
         "BarLeftPadding": 4,
         "BarRightPadding": 4,
-        "MaxValue": 16,
-        "InitialValue": 8
+        "MaxValue": 20,
+        "InitialValue": 0
       },
       "childrenContent": {
         "Background": {
@@ -13870,7 +13973,7 @@
     },
     {
       "assetStoreId": "5d60da81895e1d170c135f9071369e0f617f24485a6760a717ea2d56988b8c8f",
-      "name": "OrangeFlatBar3",
+      "name": "Rallies",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -13882,8 +13985,8 @@
         "BarBottomPadding": 6,
         "BarLeftPadding": 4,
         "BarRightPadding": 4,
-        "MaxValue": 16,
-        "InitialValue": 8
+        "MaxValue": 30,
+        "InitialValue": 0
       },
       "childrenContent": {
         "Background": {
@@ -13932,6 +14035,479 @@
           }
         }
       }
+    },
+    {
+      "assetStoreId": "8b0d151969a3e5a63292058f40c8cf899f8498300e85301762f1c144e19b5631",
+      "bottomMargin": 32,
+      "height": 96,
+      "leftMargin": 32,
+      "name": "WoodHud",
+      "rightMargin": 32,
+      "texture": "9patch_Wood Hud_all_32.png",
+      "tiled": true,
+      "topMargin": 32,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 96,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "d7de738069817891a6c233618dc4fe00463738543c80009e9ef75684d5f6e8fd",
+      "name": "BrownButtonWithShadow2",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Brown Button With Shadow_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Brown Button With Shadow_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "BUTTON",
+          "font": "CantoraOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Brown Button With Shadow_Pressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
+      "name": "Selling_Boba_Button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Selling Boba",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 29,
+            "g": 99,
+            "r": 62
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
+    },
+    {
+      "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
+      "name": "SM_Donations_Button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Donations",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 29,
+            "g": 99,
+            "r": 62
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
+    },
+    {
+      "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
+      "name": "Car_Wash_Button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Car Wash",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 29,
+            "g": 99,
+            "r": 62
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
+    },
+    {
+      "assetStoreId": "0d3f4843e5ebb7af30fd80adf19a1c5a14164c1283f344991dc2aa14067a1262",
+      "name": "Put_Posters_Up_Button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Red Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Red Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Put Posters Up",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 16,
+            "g": 38,
+            "r": 111
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Red Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
+    },
+    {
+      "assetStoreId": "0d3f4843e5ebb7af30fd80adf19a1c5a14164c1283f344991dc2aa14067a1262",
+      "name": "Post_Ad_Online_Button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Red Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Red Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Post Ad Online",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 16,
+            "g": 38,
+            "r": 111
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Red Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
+    },
+    {
+      "assetStoreId": "0d3f4843e5ebb7af30fd80adf19a1c5a14164c1283f344991dc2aa14067a1262",
+      "name": "Rallies_Button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Red Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Red Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Rallies",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 16,
+            "g": 38,
+            "r": 111
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Red Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
+    },
+    {
+      "assetStoreId": "afbeb7d1b67ec8b51b3370ddfd8c4aa1bd9b925ee58ead50767f44e2e444d7ba",
+      "bottomMargin": 32,
+      "height": 96,
+      "leftMargin": 32,
+      "name": "BorderedHud",
+      "rightMargin": 32,
+      "texture": "9patch_Bordered Hud_all_32.png",
+      "tiled": true,
+      "topMargin": 32,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 96,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -14331,31 +14907,58 @@
         "objectName": "SupportersText"
       },
       {
-        "objectName": "GreenButtonWithShadow"
+        "objectName": "Get_Supporters_Selection"
       },
       {
-        "objectName": "BrownButtonWithShadow"
+        "objectName": "Make_Money_Selection"
       },
       {
-        "objectName": "GreenFlatBar"
+        "objectName": "SellingBoba"
       },
       {
-        "objectName": "GreenFlatBar2"
+        "objectName": "AskForSocialMediaDonations"
       },
       {
-        "objectName": "GreenFlatBar3"
+        "objectName": "CarWash"
       },
       {
         "objectName": "YellowBackground"
       },
       {
-        "objectName": "OrangeFlatBar"
+        "objectName": "PutPostersUp"
       },
       {
-        "objectName": "OrangeFlatBar2"
+        "objectName": "PostAdOnline"
       },
       {
-        "objectName": "OrangeFlatBar3"
+        "objectName": "Rallies"
+      },
+      {
+        "objectName": "WoodHud"
+      },
+      {
+        "objectName": "BrownButtonWithShadow2"
+      },
+      {
+        "objectName": "Selling_Boba_Button"
+      },
+      {
+        "objectName": "SM_Donations_Button"
+      },
+      {
+        "objectName": "Car_Wash_Button"
+      },
+      {
+        "objectName": "Put_Posters_Up_Button"
+      },
+      {
+        "objectName": "Post_Ad_Online_Button"
+      },
+      {
+        "objectName": "Rallies_Button"
+      },
+      {
+        "objectName": "BorderedHud"
       }
     ]
   },
@@ -14372,101 +14975,759 @@
           ]
         }
       ],
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"GetSupporterScreen\""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"MakeMoneyScreen\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Get_Supporters_Selection",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"GetSupporterScreen\""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"MakeMoneyScreen\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "Put_Posters_Up_Button",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "Post_Ad_Online_Button",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "Rallies_Button",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "Selling_Boba_Button",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "SM_Donations_Button",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "Selling_Boba_Button",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Selling_Boba_Button",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "SellingBoba",
+            "+",
+            "5",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+              },
+              "parameters": [
+                "SellingBoba",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "SellingBoba",
+                "=",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Money",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "MoneyText",
+                "Text",
+                "=",
+                "ToString(Variable(Money))"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "DurationRemaining",
+                "-",
+                "10",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "SM_Donations_Button",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "AskForSocialMediaDonations",
+            "+",
+            "1",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+              },
+              "parameters": [
+                "AskForSocialMediaDonations",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "AskForSocialMediaDonations",
+                "=",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Money",
+                "+",
+                "20"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "MoneyText",
+                "Text",
+                "=",
+                "ToString(Variable(Money))"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "DurationRemaining",
+                "-",
+                "20",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Car_Wash_Button",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "CarWash",
+            "+",
+            "1",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+              },
+              "parameters": [
+                "CarWash",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "CarWash",
+                "=",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Money",
+                "+",
+                "30"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "MoneyText",
+                "Text",
+                "=",
+                "ToString(Variable(Money))"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "DurationRemaining",
+                "-",
+                "30",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Make_Money_Selection",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"MakeMoneyScreen\""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"GetSupporterScreen\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "Selling_Boba_Button",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "SM_Donations_Button",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "Car_Wash_Button",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "Put_Posters_Up_Button",
+            "no",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "Post_Ad_Online_Button",
+            "no",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "Rallies_Button",
+            "no",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Put_Posters_Up_Button",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "PutPostersUp",
+            "+",
+            "1",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+              },
+              "parameters": [
+                "PutPostersUp",
+                "="
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "PutPostersUp",
+                "=",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Supporters",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "SupportersText",
+                "Text",
+                "=",
+                "ToString(Variable(Supporters))"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "DurationRemaining",
+                "-",
+                "10",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Post_Ad_Online_Button",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "PostAdOnline",
+            "+",
+            "1",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+              },
+              "parameters": [
+                "PostAdOnline",
+                "="
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "PostAdOnline",
+                "=",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Supporters",
+                "+",
+                "20"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "SupportersText",
+                "Text",
+                "=",
+                "ToString(Variable(Supporters))"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "DurationRemaining",
+                "-",
+                "20",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Rallies_Button",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "Rallies",
+            "+",
+            "1",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+              },
+              "parameters": [
+                "Rallies",
+                "="
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "Rallies",
+                "=",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Supporters",
+                "+",
+                "30"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "SupportersText",
+                "Text",
+                "=",
+                "ToString(Variable(Supporters))"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "DurationRemaining",
+                "-",
+                "30",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
       "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
-          },
-          "parameters": [
-            "GreenFlatBar",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-          },
-          "parameters": [
-            "GreenFlatBar",
-            "=",
-            "0",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "Money",
-            "+",
-            "10"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "Time",
-            "-",
-            "10"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
-          },
-          "parameters": [
-            "OrangeFlatBar",
-            "="
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-          },
-          "parameters": [
-            "OrangeFlatBar",
-            "=",
-            "0",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "Supporters",
-            "+",
-            "10"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "Time",
-            "-",
-            "10"
-          ]
-        }
-      ]
+      "conditions": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -14500,6 +15761,70 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "MakeMoneyScreen",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "GetSupporterScreen",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
