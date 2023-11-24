@@ -738,6 +738,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "NoMoney",
+      "name": "NoMoney",
+      "persistentUuid": "409cd48a-4b29-4c3e-8663-639c50b797b1",
+      "width": 0,
+      "x": 204,
+      "y": 372,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -14010,7 +14025,7 @@
         "BarBottomPadding": 6,
         "BarLeftPadding": 4,
         "BarRightPadding": 4,
-        "MaxValue": 20,
+        "MaxValue": 10,
         "InitialValue": 0
       },
       "childrenContent": {
@@ -14075,7 +14090,7 @@
         "BarBottomPadding": 6,
         "BarLeftPadding": 4,
         "BarRightPadding": 4,
-        "MaxValue": 30,
+        "MaxValue": 10,
         "InitialValue": 0
       },
       "childrenContent": {
@@ -14724,6 +14739,27 @@
         "g": 255,
         "r": 255
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "NoMoney",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "You don't have enough money to do that!",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 80,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 255
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -15193,6 +15229,9 @@
       },
       {
         "objectName": "RallyText"
+      },
+      {
+        "objectName": "NoMoney"
       }
     ]
   },
@@ -15230,6 +15269,15 @@
         },
         {
           "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"NoMoney\""
+          ]
+        },
+        {
+          "type": {
             "value": "PauseTimer"
           },
           "parameters": [
@@ -15253,6 +15301,33 @@
           "parameters": [
             "",
             "\"Donations\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"Posters\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"OnlineAd\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"Rally\""
           ]
         }
       ]
@@ -15344,7 +15419,7 @@
             "value": "PanelSpriteButton::PanelSpriteButton::Activate"
           },
           "parameters": [
-            "Selling_Boba_Button",
+            "Car_Wash_Button",
             "",
             ""
           ]
@@ -15533,52 +15608,30 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-          },
-          "parameters": [
-            "PutPostersUp",
-            "+",
-            "1",
-            ""
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+                "value": "VarScene"
               },
               "parameters": [
-                "PutPostersUp",
-                "="
+                "Money",
+                ">=",
+                "10"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-              },
-              "parameters": [
-                "PutPostersUp",
-                "=",
-                "0",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "ModVarScene"
               },
               "parameters": [
-                "Supporters",
-                "+",
+                "Money",
+                "-",
                 "10"
               ]
             },
@@ -15587,21 +15640,74 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "SupportersText",
+                "MoneyText",
                 "Text",
                 "=",
-                "ToString(Variable(Supporters))"
+                "ToString(Variable(Money))"
               ]
             },
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                "value": "UnPauseTimer"
               },
               "parameters": [
-                "DurationRemaining",
-                "-",
-                "10",
+                "",
+                "\"Posters\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "papershuffling.mp3",
+                "",
+                "",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Money",
+                "<",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"NoMoney\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"NoMoney\""
               ]
             }
           ]
@@ -15621,52 +15727,30 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-          },
-          "parameters": [
-            "PostAdOnline",
-            "+",
-            "1",
-            ""
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+                "value": "VarScene"
               },
               "parameters": [
-                "PostAdOnline",
-                "="
+                "Money",
+                ">=",
+                "20"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-              },
-              "parameters": [
-                "PostAdOnline",
-                "=",
-                "0",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "ModVarScene"
               },
               "parameters": [
-                "Supporters",
-                "+",
+                "Money",
+                "-",
                 "20"
               ]
             },
@@ -15675,21 +15759,74 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "SupportersText",
+                "MoneyText",
                 "Text",
                 "=",
-                "ToString(Variable(Supporters))"
+                "ToString(Variable(Money))"
               ]
             },
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                "value": "UnPauseTimer"
               },
               "parameters": [
-                "DurationRemaining",
-                "-",
-                "20",
+                "",
+                "\"OnlineAd\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "onlymp3.to - MOUSE CLICK SOUND EFFECT-nVdMI5FNzxU-192k-1700866084.mp3",
+                "",
+                "",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Money",
+                "<",
+                "20"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"NoMoney\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"NoMoney\""
               ]
             }
           ]
@@ -15709,53 +15846,31 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-          },
-          "parameters": [
-            "Rallies",
-            "+",
-            "1",
-            ""
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+                "value": "VarScene"
               },
               "parameters": [
-                "Rallies",
-                "="
+                "Money",
+                ">=",
+                "100"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-              },
-              "parameters": [
-                "Rallies",
-                "=",
-                "0",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "ModVarScene"
               },
               "parameters": [
-                "Supporters",
-                "+",
-                "30"
+                "Money",
+                "-",
+                "100"
               ]
             },
             {
@@ -15763,23 +15878,212 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "SupportersText",
+                "MoneyText",
                 "Text",
                 "=",
-                "ToString(Variable(Supporters))"
+                "ToString(Variable(Money))"
               ]
             },
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                "value": "UnPauseTimer"
               },
               "parameters": [
-                "DurationRemaining",
-                "-",
-                "30",
+                "",
+                "\"Rally\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "crowdchant.mp3",
+                "",
+                "",
                 ""
               ]
             }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Money",
+                "<",
+                "100"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"NoMoney\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"NoMoney\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+          },
+          "parameters": [
+            "PostAdOnline",
+            "="
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"OnlineAd\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "PostAdOnline",
+            "=",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Supporters",
+            "+",
+            "RandomInRange(10,100)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "SupportersText",
+            "Text",
+            "=",
+            "ToString(Variable(Supporters))"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "DurationRemaining",
+            "-",
+            "10",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+          },
+          "parameters": [
+            "Rallies",
+            "="
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"Rally\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "Rallies",
+            "=",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Supporters",
+            "+",
+            "RandomInRange(100,300)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "SupportersText",
+            "Text",
+            "=",
+            "ToString(Variable(Supporters))"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "DurationRemaining",
+            "-",
+            "30",
+            ""
           ]
         }
       ]
@@ -15847,6 +16151,18 @@
             "DurationRemaining",
             "-",
             "30",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "onlymp3.to - Cash Register Kaching Sound Effect HD -4kVTqUxJYBA-192k-1700865866.mp3",
+            "",
+            "",
             ""
           ]
         }
@@ -15917,6 +16233,18 @@
             "20",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "onlymp3.to - Cash Register Kaching Sound Effect HD -4kVTqUxJYBA-192k-1700865866.mp3",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -15934,6 +16262,18 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "onlymp3.to - Cash Register Kaching Sound Effect HD -4kVTqUxJYBA-192k-1700865866.mp3",
+            "",
+            "",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "PauseTimer"
@@ -15973,6 +16313,74 @@
             "Text",
             "=",
             "ToString(Variable(Money))"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "DurationRemaining",
+            "-",
+            "10",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+          },
+          "parameters": [
+            "PutPostersUp",
+            "="
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"Posters\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "PutPostersUp",
+            "=",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Supporters",
+            "+",
+            "RandomInRange(10,50)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "SupportersText",
+            "Text",
+            "=",
+            "ToString(Variable(Supporters))"
           ]
         },
         {
@@ -16071,6 +16479,90 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "TimerPaused"
+          },
+          "parameters": [
+            "",
+            "\"OnlineAd\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "PostAdOnline",
+            "+",
+            ".09",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "TimerPaused"
+          },
+          "parameters": [
+            "",
+            "\"Posters\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "PutPostersUp",
+            "+",
+            ".09",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "TimerPaused"
+          },
+          "parameters": [
+            "",
+            "\"Rally\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "Rallies",
+            "+",
+            ".09",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -16162,6 +16654,38 @@
       "name": "GetSupporterScreen",
       "renderingType": "",
       "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "NoMoney",
+      "renderingType": "",
+      "visibility": false,
       "cameras": [],
       "effects": [
         {

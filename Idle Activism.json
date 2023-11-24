@@ -3574,6 +3574,56 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/998f3521bccc8b5fedee0a2f6891d6c2604964a6cb048c4858575443b3634f4d_9patch_Bordered Hud_all_32.png",
           "name": "9patch_Bordered Hud_all_32.png"
         }
+      },
+      {
+        "file": "onlymp3.to - Cash Register Kaching Sound Effect HD -4kVTqUxJYBA-192k-1700865866.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "onlymp3.to - Cash Register Kaching Sound Effect HD -4kVTqUxJYBA-192k-1700865866.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "onlymp3.to - Shuffling Paper Sound Effect-otjC6WauG7g-192k-1700866042.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "onlymp3.to - Shuffling Paper Sound Effect-otjC6WauG7g-192k-1700866042.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "papershuffling.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "papershuffling.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "onlymp3.to - MOUSE CLICK SOUND EFFECT-nVdMI5FNzxU-192k-1700866084.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "onlymp3.to - MOUSE CLICK SOUND EFFECT-nVdMI5FNzxU-192k-1700866084.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "crowdchant.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "crowdchant.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
