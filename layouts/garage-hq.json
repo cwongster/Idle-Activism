@@ -13649,7 +13649,7 @@
         "BarBottomPadding": 6,
         "BarLeftPadding": 4,
         "BarRightPadding": 4,
-        "MaxValue": 16,
+        "MaxValue": 10,
         "InitialValue": 0
       },
       "childrenContent": {
@@ -13714,7 +13714,7 @@
         "BarBottomPadding": 6,
         "BarLeftPadding": 4,
         "BarRightPadding": 4,
-        "MaxValue": 16,
+        "MaxValue": 20,
         "InitialValue": 0
       },
       "childrenContent": {
@@ -13790,7 +13790,7 @@
         "BarBottomPadding": 6,
         "BarLeftPadding": 4,
         "BarRightPadding": 4,
-        "MaxValue": 16,
+        "MaxValue": 30,
         "InitialValue": 0
       },
       "childrenContent": {
@@ -13855,7 +13855,7 @@
         "BarBottomPadding": 6,
         "BarLeftPadding": 4,
         "BarRightPadding": 4,
-        "MaxValue": 16,
+        "MaxValue": 10,
         "InitialValue": 0
       },
       "childrenContent": {
@@ -13920,7 +13920,7 @@
         "BarBottomPadding": 6,
         "BarLeftPadding": 4,
         "BarRightPadding": 4,
-        "MaxValue": 16,
+        "MaxValue": 20,
         "InitialValue": 0
       },
       "childrenContent": {
@@ -13985,7 +13985,7 @@
         "BarBottomPadding": 6,
         "BarLeftPadding": 4,
         "BarRightPadding": 4,
-        "MaxValue": 16,
+        "MaxValue": 30,
         "InitialValue": 0
       },
       "childrenContent": {
@@ -15111,7 +15111,7 @@
           "parameters": [
             "SellingBoba",
             "+",
-            "1",
+            "5",
             ""
           ]
         }
@@ -15154,12 +15154,24 @@
             },
             {
               "type": {
-                "value": "ModVarScene"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "Time",
+                "MoneyText",
+                "Text",
+                "=",
+                "ToString(Variable(Money))"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "DurationRemaining",
                 "-",
-                "10"
+                "10",
+                ""
               ]
             }
           ]
@@ -15230,12 +15242,24 @@
             },
             {
               "type": {
-                "value": "ModVarScene"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "Time",
+                "MoneyText",
+                "Text",
+                "=",
+                "ToString(Variable(Money))"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "DurationRemaining",
                 "-",
-                "20"
+                "20",
+                ""
               ]
             }
           ]
@@ -15306,13 +15330,32 @@
             },
             {
               "type": {
-                "value": "ModVarScene"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "Time",
-                "-",
-                "30"
+                "MoneyText",
+                "Text",
+                "=",
+                "ToString(Variable(Money))"
               ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "DurationRemaining",
+                "-",
+                "30",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ]
         }
@@ -15476,12 +15519,24 @@
             },
             {
               "type": {
-                "value": "ModVarScene"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "Time",
+                "SupportersText",
+                "Text",
+                "=",
+                "ToString(Variable(Supporters))"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "DurationRemaining",
                 "-",
-                "10"
+                "10",
+                ""
               ]
             }
           ]
@@ -15552,12 +15607,24 @@
             },
             {
               "type": {
-                "value": "ModVarScene"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "Time",
+                "SupportersText",
+                "Text",
+                "=",
+                "ToString(Variable(Supporters))"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "DurationRemaining",
                 "-",
-                "20"
+                "20",
+                ""
               ]
             }
           ]
@@ -15628,12 +15695,24 @@
             },
             {
               "type": {
-                "value": "ModVarScene"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "Time",
+                "SupportersText",
+                "Text",
+                "=",
+                "ToString(Variable(Supporters))"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "DurationRemaining",
                 "-",
-                "30"
+                "30",
+                ""
               ]
             }
           ]
