@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3768772036750875,
+    "zoomFactor": 0.5427920802473281,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -38,6 +38,36 @@
     {
       "folded": true,
       "name": "Time",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "folded": true,
+      "name": "SuccessChance",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "folded": true,
+      "name": "SupportersNeeded",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "folded": true,
+      "name": "Success",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "Rand",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "folded": true,
+      "name": "checker",
       "type": "string",
       "value": ""
     }
@@ -358,8 +388,8 @@
       "name": "TimeRemaining",
       "persistentUuid": "c3ec9574-03e4-489f-b150-eb96a4a41907",
       "width": 0,
-      "x": 847,
-      "y": 103,
+      "x": 740,
+      "y": 104,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -13390,8 +13420,8 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "InitialValue": 300,
-        "MaxValue": 300,
+        "InitialValue": 1,
+        "MaxValue": 1,
         "BarTopPadding": 8,
         "BarRightPadding": 10,
         "BarBottomPadding": 8,
@@ -13462,7 +13492,7 @@
         "PreviousHighValueDuration": 0,
         "ShowLabel": true,
         "InitialValue": 0,
-        "MaxValue": 5
+        "MaxValue": 3
       },
       "childrenContent": {
         "Background": {
@@ -13604,7 +13634,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Time to Deadline!",
+      "string": "Time to Deadline! Chance of Success: 0 %",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -15537,6 +15567,17 @@
           "parameters": [
             "Start"
           ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TimeRemaining",
+            "Text",
+            "=",
+            "\"Time to Deadline! Chance of Success: \" + ToString(Variable(SuccessChance)) + \"%\""
+          ]
         }
       ]
     },
@@ -16225,6 +16266,27 @@
             "10",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "SuccessChance",
+            "=",
+            "Variable(Supporters) / Variable(SupportersNeeded) * 100"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TimeRemaining",
+            "Text",
+            "=",
+            "\"Time to Deadline! Chance of Success: \" + ToString(Variable(SuccessChance)) + \"%\""
+          ]
         }
       ]
     },
@@ -16292,6 +16354,27 @@
             "-",
             "30",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "SuccessChance",
+            "=",
+            "Variable(Supporters) / Variable(SupportersNeeded) * 100"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TimeRemaining",
+            "Text",
+            "=",
+            "\"Time to Deadline! Chance of Success: \" + ToString(Variable(SuccessChance)) + \"%\""
           ]
         }
       ]
@@ -16601,6 +16684,27 @@
             "10",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "SuccessChance",
+            "=",
+            "Variable(Supporters) / Variable(SupportersNeeded) * 100"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TimeRemaining",
+            "Text",
+            "=",
+            "\"Time to Deadline! Chance of Success: \" + ToString(Variable(SuccessChance)) + \"%\""
+          ]
         }
       ]
     },
@@ -16783,9 +16887,36 @@
             "DurationRemaining",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Rand",
+            "=",
+            "RandomInRange(1,100)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "checker",
+            "=",
+            "1"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -16808,7 +16939,7 @@
           "parameters": [
             "DurationRemaining",
             "=",
-            "1000",
+            "24*7",
             ""
           ]
         },
@@ -16819,7 +16950,7 @@
           "parameters": [
             "DurationRemaining",
             "=",
-            "1000",
+            "24*7",
             ""
           ]
         },
@@ -16862,6 +16993,69 @@
           "parameters": [
             "Start",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "SupportersNeeded",
+            "=",
+            "200"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Money",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Supporters",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "MoneyText",
+            "Text",
+            "=",
+            "ToString(Variable(Money))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "SupportersText",
+            "Text",
+            "=",
+            "ToString(Variable(Supporters))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TimeRemaining",
+            "Text",
+            "=",
+            "\"Time to Deadline! Chance of Success: 0 %\""
           ]
         }
       ]
@@ -16887,7 +17081,7 @@
           "parameters": [
             "DurationRemaining",
             "=",
-            "2000",
+            "24*14",
             ""
           ]
         },
@@ -16898,7 +17092,7 @@
           "parameters": [
             "DurationRemaining",
             "=",
-            "2000",
+            "24*14",
             ""
           ]
         },
@@ -16941,6 +17135,80 @@
           "parameters": [
             "Start",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "SupportersNeeded",
+            "=",
+            "400"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Money",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "SupportersText",
+            "Text",
+            "=",
+            "ToString(Variable(Supporters))"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Supporters",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "MoneyText",
+            "Text",
+            "=",
+            "ToString(Variable(Money))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "SupportersText",
+            "Text",
+            "=",
+            "ToString(Variable(Supporters))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TimeRemaining",
+            "Text",
+            "=",
+            "\"Time to Deadline! Chance of Success: 0 %\""
           ]
         }
       ]
@@ -16966,7 +17234,7 @@
           "parameters": [
             "DurationRemaining",
             "=",
-            "3000",
+            "24*21",
             ""
           ]
         },
@@ -16977,7 +17245,7 @@
           "parameters": [
             "DurationRemaining",
             "=",
-            "3000",
+            "24*21",
             ""
           ]
         },
@@ -17020,6 +17288,80 @@
           "parameters": [
             "Start",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "SupportersNeeded",
+            "=",
+            "600"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Money",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "SupportersText",
+            "Text",
+            "=",
+            "ToString(Variable(Supporters))"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Supporters",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "MoneyText",
+            "Text",
+            "=",
+            "ToString(Variable(Money))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "SupportersText",
+            "Text",
+            "=",
+            "ToString(Variable(Supporters))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TimeRemaining",
+            "Text",
+            "=",
+            "\"Time to Deadline! Chance of Success: 0 %\""
           ]
         }
       ]
@@ -17045,7 +17387,7 @@
           "parameters": [
             "DurationRemaining",
             "=",
-            "4000",
+            "24*28",
             ""
           ]
         },
@@ -17056,7 +17398,7 @@
           "parameters": [
             "DurationRemaining",
             "=",
-            "4000",
+            "24*28",
             ""
           ]
         },
@@ -17100,6 +17442,80 @@
             "Start",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "SupportersNeeded",
+            "=",
+            "800"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Money",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "SupportersText",
+            "Text",
+            "=",
+            "ToString(Variable(Supporters))"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Supporters",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "MoneyText",
+            "Text",
+            "=",
+            "ToString(Variable(Money))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "SupportersText",
+            "Text",
+            "=",
+            "ToString(Variable(Supporters))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TimeRemaining",
+            "Text",
+            "=",
+            "\"Time to Deadline! Chance of Success: 0 %\""
+          ]
         }
       ]
     },
@@ -17124,6 +17540,384 @@
           "parameters": [
             "",
             "\"Activist Selection\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "LayerVisible"
+          },
+          "parameters": [
+            "",
+            "\"Activist Selection\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "YellowButton",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "YellowButton2",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "YellowButton3",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "YellowButton4",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "Start",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "LayerVisible"
+          },
+          "parameters": [
+            "",
+            "\"Activist Selection\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "YellowButton",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "YellowButton2",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "YellowButton3",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "YellowButton4",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "Start",
+            "yes",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "SuccessChance",
+            ">=",
+            "100"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TimeRemaining",
+            "Text",
+            "=",
+            "\"Time to Deadline! Chance of Success: 100 %\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "checker",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Rand",
+                ">",
+                "Variable(SuccessChance)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "checker",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Activist Selection\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "YellowButton",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "YellowButton2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "YellowButton3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "YellowButton4",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Start"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Rand",
+                "<=",
+                "Variable(SuccessChance)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "checker",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "GreenDotBar",
+                "+",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Activist Selection\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "YellowButton",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "YellowButton2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "YellowButton3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "YellowButton4",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Start"
+              ]
+            }
           ]
         }
       ]
