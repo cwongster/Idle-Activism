@@ -780,7 +780,7 @@
       "persistentUuid": "accfed5b-39c2-4b55-8ec4-3364afa9a1ba",
       "width": 430,
       "x": 340,
-      "y": 555,
+      "y": 355,
       "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
@@ -795,8 +795,8 @@
       "name": "YellowButton2",
       "persistentUuid": "288b87ac-f8b9-41d2-97f6-71bf77c80488",
       "width": 430,
-      "x": 1165,
-      "y": 543,
+      "x": 1097,
+      "y": 355,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -812,7 +812,7 @@
       "persistentUuid": "b23cbda0-362f-4942-9d00-d71ca74f8b01",
       "width": 430,
       "x": 340,
-      "y": 782,
+      "y": 655,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -827,9 +827,39 @@
       "name": "YellowButton4",
       "persistentUuid": "1fa9cbc9-0b0e-4847-b920-366a7cac1428",
       "width": 430,
-      "x": 1165,
-      "y": 782,
+      "x": 1097,
+      "y": 655,
       "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Activist Selection",
+      "name": "Choose",
+      "persistentUuid": "d15387a6-8ab8-437e-b07a-2debaf05a054",
+      "width": 0,
+      "x": 589,
+      "y": 183,
+      "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Activist Selection",
+      "name": "Start",
+      "persistentUuid": "c2a45b70-39a9-4bde-9764-59276ee5afc3",
+      "width": 0,
+      "x": 840,
+      "y": 938,
+      "zOrder": 54,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -14840,6 +14870,90 @@
         "g": 0,
         "r": 255
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Choose",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Choose one among these:",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
+      "name": "Start",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 24,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Square Decorated Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Square Decorated Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Start",
+          "font": "mononoki-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Square Decorated Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 22,
+          "width": 192
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -15312,6 +15426,12 @@
       },
       {
         "objectName": "NoMoney"
+      },
+      {
+        "objectName": "Choose"
+      },
+      {
+        "objectName": "Start"
       }
     ]
   },
@@ -16658,6 +16778,183 @@
         }
       ],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "YellowButton",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+          },
+          "parameters": [
+            "DurationRemaining",
+            "=",
+            "1000",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "DurationRemaining",
+            "=",
+            "1000",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "YellowButton2",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+          },
+          "parameters": [
+            "DurationRemaining",
+            "=",
+            "2000",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "DurationRemaining",
+            "=",
+            "2000",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "YellowButton3",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+          },
+          "parameters": [
+            "DurationRemaining",
+            "=",
+            "3000",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "DurationRemaining",
+            "=",
+            "3000",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "YellowButton4",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+          },
+          "parameters": [
+            "DurationRemaining",
+            "=",
+            "4000",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "DurationRemaining",
+            "=",
+            "4000",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Start",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Activist Selection\""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
