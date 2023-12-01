@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5610952083582071,
+    "zoomFactor": 0.3768772036750875,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -434,7 +434,7 @@
       "name": "Get_Supporters_Selection",
       "persistentUuid": "a32c6714-97bd-4b14-9955-7ac0c2f28c7d",
       "width": 0,
-      "x": 659,
+      "x": 680,
       "y": 316,
       "zOrder": 27,
       "numberProperties": [],
@@ -750,6 +750,86 @@
       "x": 204,
       "y": 372,
       "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 18,
+      "height": 1147,
+      "layer": "Activist Selection",
+      "name": "NewSprite",
+      "persistentUuid": "60cdd5c6-d3ba-43a4-ab62-7525ef8c72b6",
+      "width": 1960,
+      "x": -13,
+      "y": -44,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 150,
+      "layer": "Activist Selection",
+      "name": "YellowButton",
+      "persistentUuid": "accfed5b-39c2-4b55-8ec4-3364afa9a1ba",
+      "width": 430,
+      "x": 340,
+      "y": 555,
+      "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 150,
+      "layer": "Activist Selection",
+      "name": "YellowButton2",
+      "persistentUuid": "288b87ac-f8b9-41d2-97f6-71bf77c80488",
+      "width": 430,
+      "x": 1165,
+      "y": 543,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 150,
+      "layer": "Activist Selection",
+      "name": "YellowButton3",
+      "persistentUuid": "b23cbda0-362f-4942-9d00-d71ca74f8b01",
+      "width": 430,
+      "x": 340,
+      "y": 782,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 150,
+      "layer": "Activist Selection",
+      "name": "YellowButton4",
+      "persistentUuid": "1fa9cbc9-0b0e-4847-b920-366a7cac1428",
+      "width": 430,
+      "x": 1165,
+      "y": 782,
+      "zOrder": 52,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -16563,6 +16643,21 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsEmpty"
+          },
+          "parameters": [
+            "DurationRemaining",
+            ""
+          ]
+        }
+      ],
+      "actions": []
     }
   ],
   "layers": [
@@ -16686,6 +16781,38 @@
       "name": "NoMoney",
       "renderingType": "",
       "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Activist Selection",
+      "renderingType": "",
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
