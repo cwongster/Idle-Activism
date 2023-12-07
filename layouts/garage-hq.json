@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4027225833325919,
+    "zoomFactor": 0.38958562738272934,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1216,9 +1216,9 @@
       "layer": "Tutorial",
       "name": "RedPanelSupporters",
       "persistentUuid": "ec3b429d-94f1-4478-8de8-729fde79f43c",
-      "width": 594,
-      "x": 313,
-      "y": 467,
+      "width": 608,
+      "x": 303,
+      "y": 471,
       "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
@@ -1230,7 +1230,7 @@
       "depth": 1,
       "height": 61,
       "layer": "Tutorial",
-      "name": "FullArrowSupporterOptions",
+      "name": "FullArrowSupporterTab",
       "persistentUuid": "747ab406-a2a4-4a23-8cfe-61f7ae4afe79",
       "width": 114,
       "x": 639,
@@ -1244,13 +1244,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 99,
+      "height": 89,
       "layer": "Tutorial",
       "name": "RedPanelMoneyTab",
       "persistentUuid": "a6059d0e-7359-4d75-bb88-0de2d2657ca4",
-      "width": 705,
-      "x": 265,
-      "y": 143,
+      "width": 631,
+      "x": 300,
+      "y": 153,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -1267,6 +1267,84 @@
       "x": 880,
       "y": 920,
       "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Tutorial",
+      "name": "Next5",
+      "persistentUuid": "e1217998-2f6d-457c-bd72-f27d43235279",
+      "width": 0,
+      "x": 880,
+      "y": 920,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 88,
+      "layer": "Tutorial",
+      "name": "Supporter_Options",
+      "persistentUuid": "8ebf1111-7b2a-423e-88e0-e1401e2df57a",
+      "width": 464,
+      "x": 1050,
+      "y": 388,
+      "zOrder": 76,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 325,
+      "layer": "Tutorial",
+      "name": "RedPanelSupporterOptions",
+      "persistentUuid": "9908614b-740e-46d4-9bba-8e06ede5cac7",
+      "width": 479,
+      "x": 1034,
+      "y": 336,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 155,
+      "customSize": true,
+      "depth": 0,
+      "height": 66,
+      "layer": "Tutorial",
+      "name": "FullArrowSupporterOptions",
+      "persistentUuid": "5c28189b-6531-4975-912f-c9a2b4ecc014",
+      "width": 125,
+      "x": 977,
+      "y": 470,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Tutorial",
+      "name": "StartGame",
+      "persistentUuid": "c3d0daf3-d0bb-400d-abdb-bb797b2d9126",
+      "width": 0,
+      "x": 880,
+      "y": 920,
+      "zOrder": 78,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -16154,7 +16232,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "197d94b8e3638ec21211c24061bf4e4553b5099b065bf61339bfe092f9595d37",
-      "name": "FullArrowSupporterOptions",
+      "name": "FullArrowSupporterTab",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -16361,6 +16439,258 @@
           "smoothed": true,
           "underlined": false,
           "string": "Next",
+          "font": "mononoki-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Square Decorated Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 22,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Supporter_Options",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "These are the options you can choose to make supporters.\nEach have their own cons and benefits so choose carefully.",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 35,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "310bf1d14ce9e1b15d00b21a07024e5eee114a1bd0f301cca75651c44b2c7d48",
+      "name": "RedPanelSupporterOptions",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Red panel_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 397,
+                        "y": 0
+                      },
+                      {
+                        "x": 397,
+                        "y": 97
+                      },
+                      {
+                        "x": 0,
+                        "y": 97
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Red panel_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 397,
+                        "y": 0
+                      },
+                      {
+                        "x": 397,
+                        "y": 97
+                      },
+                      {
+                        "x": 0,
+                        "y": 97
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "197d94b8e3638ec21211c24061bf4e4553b5099b065bf61339bfe092f9595d37",
+      "name": "FullArrowSupporterOptions",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Full Arrow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 180,
+                        "y": 0
+                      },
+                      {
+                        "x": 180,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
+      "name": "StartGame",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 24,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Square Decorated Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Square Decorated Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Start",
           "font": "mononoki-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 40,
@@ -16876,6 +17206,9 @@
         "objectName": "Next6"
       },
       {
+        "objectName": "StartGame"
+      },
+      {
         "objectName": "Money_Text"
       },
       {
@@ -16894,10 +17227,16 @@
         "objectName": "FullArrowCurrency"
       },
       {
+        "objectName": "FullArrowSupporterTab"
+      },
+      {
         "objectName": "FullArrowSupporterOptions"
       },
       {
         "objectName": "Money_Options"
+      },
+      {
+        "objectName": "Supporter_Options"
       },
       {
         "objectName": "Fame_Points_Text"
@@ -16907,6 +17246,9 @@
       },
       {
         "objectName": "RedPanelMoneyOptions"
+      },
+      {
+        "objectName": "RedPanelSupporterOptions"
       },
       {
         "objectName": "RedPanelDuration"
@@ -17087,6 +17429,14 @@
         },
         {
           "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "StartGame"
+          ]
+        },
+        {
+          "type": {
             "value": "PanelSpriteButton::PanelSpriteButton::Activate"
           },
           "parameters": [
@@ -17121,6 +17471,36 @@
           },
           "parameters": [
             "Next4",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "Next5",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "Next6",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "StartGame",
             "",
             ""
           ]
@@ -17177,6 +17557,14 @@
             "value": "Cache"
           },
           "parameters": [
+            "FullArrowSupporterTab"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
             "FullArrowSupporterOptions"
           ]
         },
@@ -17225,6 +17613,14 @@
             "value": "Cache"
           },
           "parameters": [
+            "Supporter_Options"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
             "RedPanelMoneyOptions"
           ]
         },
@@ -17258,6 +17654,14 @@
           },
           "parameters": [
             "RedPanelMoneyTab"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "RedPanelSupporterOptions"
           ]
         }
       ]
@@ -20018,7 +20422,7 @@
             "value": "Montre"
           },
           "parameters": [
-            "FullArrowSupporterOptions",
+            "FullArrowSupporterTab",
             ""
           ]
         },
@@ -20129,6 +20533,15 @@
       "actions": [
         {
           "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"MakeMoneyScreen\""
+          ]
+        },
+        {
+          "type": {
             "value": "Montre"
           },
           "parameters": [
@@ -20192,6 +20605,24 @@
         },
         {
           "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "RedPanelMoneyOptions",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "FullArrowMoneyOptions",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "Cache"
           },
           "parameters": [
@@ -20203,7 +20634,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "FullArrowSupporterOptions"
+            "FullArrowSupporterTab"
           ]
         },
         {
@@ -20256,6 +20687,247 @@
             "Next5",
             "no",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Next6",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"GetSupporterScreen\""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"MakeMoneyScreen\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "PutPostersUp",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "PostAdOnline",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Rallies",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Put_Posters_Up_Button",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Post_Ad_Online_Button",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Rallies_Button",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Supporter_Options",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "RedPanelSupporterOptions",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "FullArrowSupporterOptions",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "FullArrowMoneyOptions"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "RedPanelMoneyOptions"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Money_Options"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "SellingBoba"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Selling_Boba_Button"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "AskForSocialMediaDonations"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "SM_Donations_Button"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "CarWash"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Car_Wash_Button"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "StartGame",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "Next6",
+            "no",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "StartGame",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Tutorial\""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"GetSupporterScreen\""
           ]
         }
       ]
@@ -20317,7 +20989,7 @@
       "isLocked": false,
       "name": "MakeMoneyScreen",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
