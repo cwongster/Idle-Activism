@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5250860067782511,
+    "zoomFactor": 0.4027225833325919,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -960,7 +960,7 @@
       "depth": 1,
       "height": 57,
       "layer": "Tutorial",
-      "name": "Money_Tab",
+      "name": "Money_Text",
       "persistentUuid": "ce3a30da-6c17-4e70-805b-44401984c096",
       "width": 567,
       "x": 332,
@@ -974,13 +974,13 @@
       "angle": 140,
       "customSize": true,
       "depth": 1,
-      "height": 55,
+      "height": 54,
       "layer": "Tutorial",
-      "name": "FullArrow",
+      "name": "FullArrowMoneyTab",
       "persistentUuid": "fea701c9-d032-4189-a832-386de15da0e8",
-      "width": 104,
-      "x": 372,
-      "y": 235,
+      "width": 103,
+      "x": 311,
+      "y": 241,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -1026,8 +1026,8 @@
       "name": "FullArrowMoneyOptions",
       "persistentUuid": "b5864fde-75af-4f43-bcfc-eeb87c521369",
       "width": 125,
-      "x": 954,
-      "y": 384,
+      "x": 977,
+      "y": 470,
       "zOrder": 63,
       "numberProperties": [],
       "stringProperties": [],
@@ -1042,8 +1042,8 @@
       "name": "Fame_Points_Text",
       "persistentUuid": "2f449467-b33f-4faf-b52a-0ccbbedaa30a",
       "width": 1152,
-      "x": 85,
-      "y": 184,
+      "x": 93,
+      "y": 186,
       "zOrder": 64,
       "numberProperties": [],
       "stringProperties": [],
@@ -1066,16 +1066,16 @@
       "initialVariables": []
     },
     {
-      "angle": 203,
+      "angle": 214,
       "customSize": true,
       "depth": 1,
-      "height": 80,
+      "height": 76,
       "layer": "Tutorial",
       "name": "FullArrowFame",
       "persistentUuid": "c6ee958c-83fd-4ee7-928a-68243557e735",
-      "width": 149,
-      "x": 281,
-      "y": 122,
+      "width": 141,
+      "x": 314,
+      "y": 126,
       "zOrder": 65,
       "numberProperties": [],
       "stringProperties": [],
@@ -1087,7 +1087,7 @@
       "depth": 1,
       "height": 339,
       "layer": "Tutorial",
-      "name": "RedPanelMoney",
+      "name": "RedPanelMoneyOptions",
       "persistentUuid": "c4b66f0d-02dc-4d30-8c22-398aca4de07c",
       "width": 491,
       "x": 1032,
@@ -1106,8 +1106,8 @@
       "name": "Duration_Bar_Text",
       "persistentUuid": "af515037-aa17-452a-ae13-e24daf31c395",
       "width": 886,
-      "x": 848,
-      "y": 170,
+      "x": 983,
+      "y": 159,
       "zOrder": 66,
       "numberProperties": [],
       "stringProperties": [],
@@ -1122,15 +1122,15 @@
       "name": "RedPanelDuration",
       "persistentUuid": "f15a10c1-d455-46db-8851-8ae71526d400",
       "width": 996,
-      "x": 810,
-      "y": 139,
+      "x": 913,
+      "y": 131,
       "zOrder": 52,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 206,
+      "angle": 228,
       "customSize": true,
       "depth": 1,
       "height": 46,
@@ -1138,8 +1138,8 @@
       "name": "FullArrowDuration",
       "persistentUuid": "ca412e12-40e6-4857-9698-97f9f0191d1d",
       "width": 88,
-      "x": 1142,
-      "y": 112,
+      "x": 1144,
+      "y": 119,
       "zOrder": 67,
       "numberProperties": [],
       "stringProperties": [],
@@ -1189,6 +1189,84 @@
       "x": 1395,
       "y": 115,
       "zOrder": 70,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Tutorial",
+      "name": "Supporter_Text",
+      "persistentUuid": "e4a1b86d-9f69-4c06-981e-4393f3d25f41",
+      "width": 0,
+      "x": 337,
+      "y": 499,
+      "zOrder": 73,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 97,
+      "layer": "Tutorial",
+      "name": "RedPanelSupporters",
+      "persistentUuid": "ec3b429d-94f1-4478-8de8-729fde79f43c",
+      "width": 594,
+      "x": 313,
+      "y": 467,
+      "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 308,
+      "customSize": true,
+      "depth": 1,
+      "height": 61,
+      "layer": "Tutorial",
+      "name": "FullArrowSupporterOptions",
+      "persistentUuid": "747ab406-a2a4-4a23-8cfe-61f7ae4afe79",
+      "width": 114,
+      "x": 639,
+      "y": 412,
+      "zOrder": 72,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 99,
+      "layer": "Tutorial",
+      "name": "RedPanelMoneyTab",
+      "persistentUuid": "a6059d0e-7359-4d75-bb88-0de2d2657ca4",
+      "width": 705,
+      "x": 265,
+      "y": 143,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Tutorial",
+      "name": "Next6",
+      "persistentUuid": "773f12c4-7aa6-42f4-ab70-7548e15d93e4",
+      "width": 0,
+      "x": 880,
+      "y": 920,
+      "zOrder": 74,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -14919,27 +14997,6 @@
       }
     },
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Tutorial_Text",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Now we can start the tutorial",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 70,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      }
-    },
-    {
       "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
       "name": "Next3",
       "type": "PanelSpriteButton::PanelSpriteButton",
@@ -15006,7 +15063,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "Money_Tab",
+      "name": "Money_Text",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -15026,7 +15083,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "197d94b8e3638ec21211c24061bf4e4553b5099b065bf61339bfe092f9595d37",
-      "name": "FullArrow",
+      "name": "FullArrowMoneyTab",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -15419,7 +15476,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "310bf1d14ce9e1b15d00b21a07024e5eee114a1bd0f301cca75651c44b2c7d48",
-      "name": "RedPanelMoney",
+      "name": "RedPanelMoneyOptions",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -15901,6 +15958,429 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
+      "name": "Next5",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 24,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Square Decorated Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Square Decorated Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Next",
+          "font": "mononoki-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Square Decorated Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 22,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Supporter_Text",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Click this button to gain supporters",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 35,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "310bf1d14ce9e1b15d00b21a07024e5eee114a1bd0f301cca75651c44b2c7d48",
+      "name": "RedPanelSupporters",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Red panel_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 397,
+                        "y": 0
+                      },
+                      {
+                        "x": 397,
+                        "y": 97
+                      },
+                      {
+                        "x": 0,
+                        "y": 97
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Red panel_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 397,
+                        "y": 0
+                      },
+                      {
+                        "x": 397,
+                        "y": 97
+                      },
+                      {
+                        "x": 0,
+                        "y": 97
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "197d94b8e3638ec21211c24061bf4e4553b5099b065bf61339bfe092f9595d37",
+      "name": "FullArrowSupporterOptions",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Full Arrow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 180,
+                        "y": 0
+                      },
+                      {
+                        "x": 180,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "310bf1d14ce9e1b15d00b21a07024e5eee114a1bd0f301cca75651c44b2c7d48",
+      "name": "RedPanelMoneyTab",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Red panel_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 397,
+                        "y": 0
+                      },
+                      {
+                        "x": 397,
+                        "y": 97
+                      },
+                      {
+                        "x": 0,
+                        "y": 97
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Red panel_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 397,
+                        "y": 0
+                      },
+                      {
+                        "x": 397,
+                        "y": 97
+                      },
+                      {
+                        "x": 0,
+                        "y": 97
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
+      "name": "Next6",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 24,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Square Decorated Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Square Decorated Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Next",
+          "font": "mononoki-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Square Decorated Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 22,
+          "width": 192
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -16390,13 +16870,16 @@
         "objectName": "Next4"
       },
       {
-        "objectName": "Tutorial_Text"
+        "objectName": "Next5"
       },
       {
-        "objectName": "Money_Tab"
+        "objectName": "Next6"
       },
       {
-        "objectName": "FullArrow"
+        "objectName": "Money_Text"
+      },
+      {
+        "objectName": "FullArrowMoneyTab"
       },
       {
         "objectName": "FullArrowFame"
@@ -16411,6 +16894,9 @@
         "objectName": "FullArrowCurrency"
       },
       {
+        "objectName": "FullArrowSupporterOptions"
+      },
+      {
         "objectName": "Money_Options"
       },
       {
@@ -16420,7 +16906,7 @@
         "objectName": "RedPanelFame"
       },
       {
-        "objectName": "RedPanelMoney"
+        "objectName": "RedPanelMoneyOptions"
       },
       {
         "objectName": "RedPanelDuration"
@@ -16429,10 +16915,19 @@
         "objectName": "RedPanelCurrency"
       },
       {
+        "objectName": "RedPanelSupporters"
+      },
+      {
+        "objectName": "RedPanelMoneyTab"
+      },
+      {
         "objectName": "Duration_Bar_Text"
       },
       {
         "objectName": "Currency_Text"
+      },
+      {
+        "objectName": "Supporter_Text"
       }
     ]
   },
@@ -16555,22 +17050,6 @@
             "value": "Cache"
           },
           "parameters": [
-            "FullArrow"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "FullArrowCurrency"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
             "Next2"
           ]
         },
@@ -16595,7 +17074,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "FullArrowMoneyOptions"
+            "Next5"
           ]
         },
         {
@@ -16603,63 +17082,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "Money_Tab"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Money_Options"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Duration_Bar_Text"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Currency_Text"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "FullArrowDuration"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "RedPanelMoney"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "RedPanelDuration"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "RedPanelCurrency"
+            "Next6"
           ]
         },
         {
@@ -16700,6 +17123,141 @@
             "Next4",
             "",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "FullArrowMoneyTab"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "FullArrowCurrency"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "FullArrowMoneyOptions"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "FullArrowDuration"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "FullArrowSupporterOptions"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Money_Text"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Money_Options"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Currency_Text"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Duration_Bar_Text"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Supporter_Text"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "RedPanelMoneyOptions"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "RedPanelDuration"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "RedPanelCurrency"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "RedPanelSupporters"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "RedPanelMoneyTab"
           ]
         }
       ]
@@ -19413,6 +19971,16 @@
         },
         {
           "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "Next3",
+            "no",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "Montre"
           },
           "parameters": [
@@ -19431,6 +19999,129 @@
           },
           "parameters": [
             "Next4",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "FullArrowMoneyTab",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "FullArrowSupporterOptions",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Money_Text",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Supporter_Text",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "RedPanelMoneyTab",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "RedPanelSupporters",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Currency_Text"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "RedPanelCurrency"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "FullArrowCurrency"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Next5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "Next5",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "Next4",
+            "no",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Next5",
             ""
           ]
         }
@@ -19504,7 +20195,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "Money_Tab"
+            "FullArrowMoneyTab"
           ]
         },
         {
@@ -19512,7 +20203,59 @@
             "value": "Cache"
           },
           "parameters": [
-            "FullArrow"
+            "FullArrowSupporterOptions"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Money_Text"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Supporter_Text"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "RedPanelMoneyTab"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "RedPanelSupporters"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "Next6",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "Next5",
+            "no",
+            ""
           ]
         }
       ]
